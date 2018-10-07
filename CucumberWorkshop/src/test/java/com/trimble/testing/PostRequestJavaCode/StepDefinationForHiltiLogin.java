@@ -30,18 +30,18 @@ Response response;
 		response.then().log().status();
 		System.out.println("====="+response.asString());
 	}
-/*
+
 	@Then("^user validate the access_token is not null$")
 	public void user_validate_the_token_is_not_null() throws Throwable {
-		response.then().assertThat().body("access_token", notNullValue());
+		//response.then().assertThat().body("access_token", notNullValue());
 		
 		//check id is greater than zero
-		String idValue = response.getBody().jsonPath().get("access_token");
-		int idInt = Integer.parseInt(idValue);
+		String access_token = response.getBody().jsonPath().get("access_token");
+	
 	//	Assert.assertTrue(idInt > 0);
-		System.out.println(idValue);
+		System.out.println(access_token);
 		
-	}*/
+	}
 
 
 }

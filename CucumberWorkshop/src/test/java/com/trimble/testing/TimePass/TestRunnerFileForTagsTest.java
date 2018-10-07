@@ -1,4 +1,4 @@
-/*//package com.trimble.testing.TagsUse;
+//package com.trimble.testing.TagsUse;
 package com.trimble.testing.TimePass;
 
 import org.junit.runner.RunWith;
@@ -27,4 +27,3 @@ import cucumber.api.junit.Cucumber;
 public class TestRunnerFileForTagsTest {
 
 }
-*/
